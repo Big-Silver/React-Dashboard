@@ -1,0 +1,12 @@
+@import "toolkit";
+
+.body {
+  font-size: inherit;
+  padding: 20px;
+}
+
+.header {
+  border-bottom: 1px solid $border-color;
+  margin: 0 0 20px 0;
+  padding-bottom: 20px;
+}

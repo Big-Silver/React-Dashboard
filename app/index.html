@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title><%= title %></title>
+  <% if (debug === false) { %>
+  <link type="text/css" rel="stylesheet" media="all" href="css/app.<%= version %>.css" />
+  <% } %>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <!-- <link rel="stylesheet" type="text/css" href="./css/style.css"> -->
+	
+  <!-- including React -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.6/react-with-addons.min.js"></script>
+
+	<!-- JSX Transformer -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.1/JSXTransformer.js"></script>
+	
+  <!-- FusionCharts Package Files -->
+	<!-- <script type="text/javascript" src="./js/fusioncharts.js"></script>
+	<script type="text/javascript" src="./js/fusioncharts.charts.js"></script>
+	<script type="text/javascript" src="./js/fusioncharts.powercharts.js"></script> -->
+	
+  <!-- FC React plugin -->
+	<!-- <script type="text/javascript" src="./js/react-fusioncharts.min.js"></script> -->
+	
+  <!-- theme file - carbon -->
+	<!-- <script type="text/javascript" src="./js/fusioncharts.theme.carbon.js"></script> -->
+</head>
+<body>
+  <div id="app"></div>
+  <!-- FusionCharts Package Files -->
+	<script type="text/javascript" src="js/fusioncharts.js"></script>
+	<script type="text/javascript" src="js/fusioncharts.charts.js"></script>
+	<script type="text/javascript" src="js/fusioncharts.powercharts.js"></script>
+	
+  <!-- FC React plugin -->
+	<script type="text/javascript" src="js/react-fusioncharts.min.js"></script>
+	
+  <!-- theme file - carbon -->
+	<script type="text/javascript" src="js/fusioncharts.theme.carbon.js"></script>
+  <script src="js/app.<%= version %>.js"></script>
+</body>
+</html>
